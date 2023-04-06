@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="color: indigo; text-align: center; font-size: 50px; font-style: oblique;"> To-Do List</h1>
+    <div id="in-div">
+        <input type="text" style="padding: 2% 1%; width: 84%;" id="inputTask" placeholder="Enter your next task" autofocus>
+        <input type="submit" style="padding: 2%;" id="add" value="Add">
+    </div>
+    <br>
+    <p id="buttonON"> </p>
+    <br>
+    <div id="div"> </div>
+    <p id="state"> </p>
+    <br> <br>
+    <div id="buttons">
+        <input type="button" style="background-color: rgb(190, 190, 190); height: auto;" id="showall" value="show all">
+        <input type="button" style="background-color: lightgreen;" id="completed" value="completed">
+        <input type="button" style="background-color: lightskyblue;" id="notCompleted" value="not completed">
+        <input type="button" style="background-color: lightcoral;" id="clear" value="clear completed">
+    </div>
+</body>
+<br> <br> <br> <br> <br>
+<footer style="color: gray; font-size: 15px; text-align: center;">input new task and press enter.</footer>
+<footer style="color: gray; font-size: 15px; text-align: center;">double click to edit existing task.</footer>
+<script src="script.js"></script>
+</html>

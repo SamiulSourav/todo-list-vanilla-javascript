@@ -1,0 +1,43 @@
+ol{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+ol li{
+    /* cursor: pointer; */
+    background-color:#eee;
+    padding: 5px;
+}
+ol li:hover{
+    background-color: #cfcfcf;
+}
+
+.delete{
+    padding: 5px;
+    border: 0px;
+    margin-left: 250px;
+    color: lightcoral;
+}
+.delete:hover{
+    background-color:rgb(237, 65, 65);
+    color:aliceblue;
+}
+
+.chcekbox{
+    cursor: pointer;
+}
+
+#add:hover{
+    cursor: pointer;
+    background-color: grey;
+    color: yellow;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
